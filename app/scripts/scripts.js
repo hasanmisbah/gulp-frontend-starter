@@ -1,5 +1,5 @@
 (function ($) {
-
+    
     $(window).on('load', function () {
         // code to execute 
         onLoad();
