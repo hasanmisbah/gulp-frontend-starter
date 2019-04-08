@@ -27,9 +27,3 @@ let onLoad = ()=> {
     var page_load_time = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
     console.log("Page loaded in: " + page_load_time / 1000 + ' sec');
 };
-
-console.log(Modernizr.webp? 'yes' : 'no');
-
-if (Modernizr.canvas) {
-    alert("This browser supports HTML5 canvas!");
-  }
